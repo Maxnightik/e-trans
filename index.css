@@ -130,7 +130,7 @@ svg {
 }
 
 .hero {
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -648,7 +648,7 @@ svg {
   .hero {
     padding-top: 260px;
     padding-bottom: 30px;
-    background-image: url(img/background-m.jpg);
+    background-image: url(../img/background-m.jpg);
   }
 
   .hero__title {

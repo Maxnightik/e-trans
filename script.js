@@ -50,11 +50,11 @@ const createModal = (title, description) => {
   });
   const nameSpanElem = createElem("span", {
     className: "modal__text",
-    textContent: "Имя",
+    textContent: "Ім'я",
   });
   const nameInputlElem = createElem("input", {
     className: "modal__input",
-    placeholder: "Введите ваше имя",
+    placeholder: "Введіть ваше ім'я",
     name: "name",
     required: true,
   });
@@ -68,7 +68,7 @@ const createModal = (title, description) => {
   });
   const phoneInputlElem = createElem("input", {
     className: "modal__input",
-    placeholder: "Введите ваш телефон",
+    placeholder: "Введіть ваш телефон",
     name: "phone",
     required: true,
   });
@@ -81,7 +81,7 @@ const createModal = (title, description) => {
 
   const btnSubmit = createElem("button", {
     className: "modal__btn",
-    textContent: "Заказать",
+    textContent: "Замовити",
     type: "submit",
   });
 

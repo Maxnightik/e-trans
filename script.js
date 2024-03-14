@@ -30,7 +30,7 @@ const createModal = (title, description) => {
 
   const titleElem = createElem("h2", {
     className: "modal__title",
-    textContent: `Заказать ${title}`,
+    textContent: `Заказати ${title}`,
   });
 
   const descriptionElem = createElem("p", {
